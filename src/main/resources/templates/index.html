@@ -3,8 +3,11 @@
 <head>
 <meta charset="UTF-8">
 <title  th:text="${titulo}"></title>
+<link type="text/css" rel="stylesheet" th:href="@{/css/style.css}"/>
 </head>
 <body>
-	<h1 th:text="${titulo}">Spring Boot App</h1>
+	<h1 class="titulo-rojo">Spring Boot con Model</h1>
+	<h1 class="titulo-azul">Decorando con estilos recursos estaticos</h1>
+	<img th:src="@{/images/spring.png}"/>
 </body>
 </html>
