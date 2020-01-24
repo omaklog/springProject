@@ -23,7 +23,7 @@ public class IndexController {
 
 	
 	
-	@GetMapping({"	","/"})
+	@GetMapping({"/index"})
 	public String index(Model model) {
 		model.addAttribute("titulo", textoIndex);
 		return "index";
